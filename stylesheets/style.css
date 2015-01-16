@@ -261,71 +261,67 @@ nav ul li a {
 /* line 201, ../sass/style.scss */
 .part3 .context {
   margin-top: 80px;
-  border-bottom-color: gray;
   margin-right: 300px;
   margin-left: 300px;
-  border-bottom-color: #999999;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
 }
-/* line 211, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .part3 p {
   font-size: 18px;
   color: white;
   padding: 10px 10px;
 }
-/* line 217, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .part3 .friend_link {
   padding-bottom: 30px;
   background-color: blank;
 }
-/* line 222, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .part3 .friend_link ul {
   display: block;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-/* line 229, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .part3 .friend_link li {
   margin-left: 20px;
   display: inline-block;
 }
-/* line 233, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 .part3 .friend_link li p {
   display: inline-block;
 }
-/* line 236, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .part3 .friend_link li a {
   text-decoration: none;
 }
-/* line 240, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 .part3 .friend_link li span.bigger_text {
   color: white;
   font-size: 16px;
 }
-/* line 244, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .part3 .friend_link li span.small_text {
   color: #787878;
   font-size: 12px;
 }
-/* line 251, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .part3 .friend_link i {
   margin-left: 60px;
   margin-right: 20px;
 }
-/* line 255, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .part3 .friend_link .icon-style {
   color: gray;
   font-size: 10px;
 }
-/* line 262, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .part3 .bottom_bt i,
 .part3 .bottom_bt span {
   display: inline-block;
   color: steelblue;
   margin-left: 3px;
 }
-/* line 268, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .part3 .bottom_bt a {
   background: #ffffff;
   width: 139px;
@@ -335,19 +331,26 @@ nav ul li a {
   line-height: 47px;
   border-radius: 5px;
 }
-/* line 277, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .part3 .icon-tencent-weibo::before {
   border-style: solid;
   border-width: 1px;
   border-color: steelblue;
   padding: 2px;
 }
-/* line 284, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .part3 .bottom_bt {
   padding-bottom: 30px;
 }
+/* line 285, ../sass/style.scss */
+.part3 hr {
+  width: 100px;
+  border-bottom: dimgray;
+  border-bottom-width: 0.2em;
+  margin-top: 30px;
+}
 
-/* line 290, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 footer {
   background: #383838;
   color: dimgray;
@@ -355,7 +358,7 @@ footer {
   text-align: center;
 }
 
-/* line 297, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .font-size12 {
   font-size: 12px;
 }

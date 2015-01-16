@@ -200,12 +200,9 @@ nav {
   text-align: center;
   .context {
     margin-top: 80px;
-    border-bottom-color: gray;
     margin-right: 300px;
     margin-left: 300px;
-    border-bottom-color: #999999;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+
   }
 
   p {
@@ -283,6 +280,13 @@ nav {
   }
   .bottom_bt {
     padding-bottom: 30px;
+  }
+
+  hr{
+    width: 100px;
+    border-bottom: dimgray;
+    border-bottom-width: 0.2em;
+    margin-top: 30px;
   }
 
 }
