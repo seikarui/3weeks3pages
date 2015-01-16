@@ -164,8 +164,10 @@ nav {
 
 .part2 {
 
-  margin-top: 150px;
+
   position: relative;
+  width: 800px;
+  margin: 100px auto;
 
   .browser_img {
     display: block;
@@ -176,7 +178,7 @@ nav {
     position: absolute;
     bottom: 0;
     z-index: +1;
-    left: 20%;
+    left: 80px;
     bottom: 0;
   }
   .tablet_img {

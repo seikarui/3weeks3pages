@@ -221,43 +221,44 @@ nav ul li a {
 
 /* line 165, ../sass/style.scss */
 .part2 {
-  margin-top: 150px;
   position: relative;
+  width: 800px;
+  margin: 100px auto;
 }
-/* line 170, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .part2 .browser_img {
   display: block;
   clear: both;
   margin: auto;
 }
-/* line 175, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .part2 .mobile_img {
   position: absolute;
   bottom: 0;
   z-index: +1;
-  left: 20%;
+  left: 80px;
   bottom: 0;
 }
-/* line 182, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .part2 .tablet_img {
   bottom: 0;
   right: 30px;
   position: absolute;
 }
 
-/* line 190, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .after {
   display: block;
   content: '';
   clear: both;
 }
 
-/* line 196, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .part3 {
   background: #383838;
   text-align: center;
 }
-/* line 199, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 .part3 .context {
   margin-top: 80px;
   border-bottom-color: gray;
@@ -267,64 +268,64 @@ nav ul li a {
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
-/* line 209, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .part3 p {
   font-size: 18px;
   color: white;
   padding: 10px 10px;
 }
-/* line 215, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .part3 .friend_link {
   padding-bottom: 30px;
   background-color: blank;
 }
-/* line 220, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .part3 .friend_link ul {
   display: block;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-/* line 227, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 .part3 .friend_link li {
   margin-left: 20px;
   display: inline-block;
 }
-/* line 231, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .part3 .friend_link li p {
   display: inline-block;
 }
-/* line 234, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .part3 .friend_link li a {
   text-decoration: none;
 }
-/* line 238, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .part3 .friend_link li span.bigger_text {
   color: white;
   font-size: 16px;
 }
-/* line 242, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 .part3 .friend_link li span.small_text {
   color: #787878;
   font-size: 12px;
 }
-/* line 249, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .part3 .friend_link i {
   margin-left: 60px;
   margin-right: 20px;
 }
-/* line 253, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 .part3 .friend_link .icon-style {
   color: gray;
   font-size: 10px;
 }
-/* line 260, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .part3 .bottom_bt i,
 .part3 .bottom_bt span {
   display: inline-block;
   color: steelblue;
   margin-left: 3px;
 }
-/* line 266, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 .part3 .bottom_bt a {
   background: #ffffff;
   width: 139px;
@@ -334,19 +335,19 @@ nav ul li a {
   line-height: 47px;
   border-radius: 5px;
 }
-/* line 275, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 .part3 .icon-tencent-weibo::before {
   border-style: solid;
   border-width: 1px;
   border-color: steelblue;
   padding: 2px;
 }
-/* line 282, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 .part3 .bottom_bt {
   padding-bottom: 30px;
 }
 
-/* line 288, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 footer {
   background: #383838;
   color: dimgray;
@@ -354,7 +355,7 @@ footer {
   text-align: center;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .font-size12 {
   font-size: 12px;
 }
