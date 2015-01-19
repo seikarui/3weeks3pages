@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 6, ../sass/style.scss */
 body {
-  background: url(/images/bg3.jpg) no-repeat center top;
+  background: url(/3weeks3pages/images/bg3.jpg) no-repeat center top;
 }
 
 /* line 10, ../sass/style.scss */
@@ -106,7 +106,7 @@ header .search {
 }
 /* line 45, ../sass/style.scss */
 header .search input {
-  background: url(/images/search-white.png) no-repeat right #454545;
+  background: url(/3weeks3pages/images/search-white.png) no-repeat right #454545;
   border: 0 none;
   font: bold 12px;
   color: #FFFFFF;
@@ -199,7 +199,7 @@ nav ul li a {
 /* line 139, ../sass/style.scss */
 .part1 .Create_bt {
   border: none;
-  background: #2165ae url(/images/linkedin-logo-isolated.png) 12px no-repeat;
+  background: #2165ae url(/3weeks3pages/images/linkedin-logo-isolated.png) 12px no-repeat;
   background-size: 25px, 25px;
   color: white;
   margin-left: 20px;
