@@ -1,0 +1,303 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/reset";
+@import "compass/css3";
+
+body {
+  background: url(/images/bg3.jpg) no-repeat center top;
+}
+
+header {
+  height: 50px;
+
+  line-height: 40px;
+  background: #000;
+
+  .icon {
+    margin-left: 100px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+  }
+
+  .header_label {
+    margin: 0;
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    clear: both;
+  }
+
+  .profile {
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 8px;
+  }
+
+  .search {
+    display: inline-block;
+    margin-left: 30px;
+
+    input {
+      background: url(/images/search-white.png) no-repeat right #454545;
+      border: 0 none;
+      font: bold 12px;
+      color: #FFFFFF;
+      width: 150px;
+      height: 20px;
+      border-radius: 3px;
+      -webkit-transition: all 0.7s ease 0s;
+      -moz-transition: all 0.7s ease 0s;
+      -ms-transition: all 0.7s ease 0s;
+      -o-transition: all 0.7s ease 0s;
+      transition: all 0.7s ease 0s;
+      vertical-align: middle;
+
+    }
+    input:focus {
+      width: 200px;
+    }
+  }
+
+  button {
+    float: right;
+    margin-top: 11px;
+    background: #e28133;
+    border: none;
+    border-radius: 3px;
+    color: white;
+  }
+
+  .smaller_bt {
+    height: 28px;
+    margin-right: 15px;
+
+    width: 45px;
+  }
+  .bigger_bt {
+    width: 63px;
+    height: 28px;
+    margin-right: 6px;
+
+  }
+}
+
+nav {
+  background: #3b3b3b;
+  height: 30px;
+
+  ul {
+    text-align: center;
+  }
+  ul li {
+    display: inline-block;
+
+    a {
+      display: inline-block;
+      color: #c7bebe;
+      font-size: 14px;
+      text-decoration: none;
+      line-height: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
+.div_body {
+
+}
+
+.part1 {
+  margin-top: 200px;
+  text-align: center;
+  h1, h3 {
+    color: white;
+    // text-align: center;
+    margin-top: 10px;
+  }
+  h1 {
+
+    font-size: 35px;
+
+  }
+
+  h3 {
+    font-size: 15px;
+
+  }
+  .div_bt {
+    margin: 10px;
+  }
+  button {
+    border-radius: 6px;
+    vertical-align: middle;
+  }
+  .Create_bt {
+
+    border: none;
+    background: #2165ae url(/images/linkedin-logo-isolated.png) 12px no-repeat;
+    background-size: 25px, 25px;
+    color: white;
+
+    margin-left: 20px;
+    margin-right: 40px;
+    width: 195px;
+    height: 52px;
+    font-size: 20px;
+
+  }
+  .Cancel_bt {
+    width: 120px;
+    height: 52px;
+    border: 1px solid;
+    border-color: white;
+    background-color: Transparent;
+    color: white;
+    font-size: 17px;
+  }
+
+}
+
+.part2 {
+
+
+  position: relative;
+  width: 800px;
+  margin: 100px auto;
+
+  .browser_img {
+    display: block;
+    clear: both;
+    margin: auto;
+  }
+  .mobile_img {
+    position: absolute;
+    bottom: 0;
+    z-index: +1;
+    left: 80px;
+    bottom: 0;
+  }
+  .tablet_img {
+    bottom: 0;
+    right: 30px;
+    position: absolute;
+
+  }
+}
+
+.after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.part3 {
+  background: #383838;
+  text-align: center;
+  .context {
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+
+  }
+
+  p {
+    font-size: 18px;
+    color: white;
+    padding: 10px 10px;
+  }
+
+  .friend_link {
+
+    padding-bottom: 30px;
+    background-color: blank;
+
+    ul {
+      display: block;
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+    }
+
+    li {
+      margin-left: 20px;
+
+      display: inline-block;
+      p {
+        display: inline-block;
+      }
+      a {
+        text-decoration: none;
+
+      }
+      span.bigger_text {
+        color: white;
+        font-size: 16px;
+      }
+      span.small_text {
+        color: #787878;
+        font-size: 12px;
+      }
+
+    }
+
+    i {
+      margin-left: 60px;
+      margin-right: 20px;
+    }
+    .icon-style {
+      color: gray;
+      font-size: 10px;
+    }
+
+  }
+
+  .bottom_bt i,
+  .bottom_bt span {
+    display: inline-block;
+    color: steelblue;
+    margin-left: 3px;
+  }
+  .bottom_bt a {
+    background: #ffffff;
+    width: 139px;
+    height: 47px;
+    display: inline-block;
+    text-align: center;
+    line-height: 47px;
+    border-radius: 5px;
+  }
+  .icon-tencent-weibo::before {
+    // background: steelblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: steelblue;
+    padding: 2px;
+  }
+  .bottom_bt {
+    padding-bottom: 30px;
+  }
+
+  hr{
+    width: 100px;
+    border-bottom: dimgray;
+    border-bottom-width: 0.2em;
+    margin-top: 30px;
+  }
+
+}
+
+footer {
+  background: #383838;
+  color: dimgray;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.font-size12 {
+  font-size: 12px;
+}
